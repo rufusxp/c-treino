@@ -10,40 +10,33 @@ namespace HelloWord
     internal class Program
     {
         static void Main(string[] args)
-        {   
-           // tabelinha das condições para ( && ) " e " 
-            // TRUE && TRUE -> true 
-            // FALSE  && FALSE -> false 
-            // FALSE && TRUE -> false 
-            // TRUE && FALSE -> false 
+        {   Console.WriteLine("Digiti sua idade :");
+            int idade = int.Parse(Console.ReadLine());
 
-             // tabelinha das condições para ( || ) " OU " 
-            // TRUE && TRUE -> true 
-            // FALSE  && FALSE -> false 
-            // FALSE && TRUE -> true 
-            // TRUE && FALSE -> true 
-            
-            
-            
-            
-           int a = 10 ;
-           int b = 20 ;
-           int c = 2 ;
- 
-            
-            if (a > b || c < b ) 
+            if (idade >= 0 && idade <= 11)
             {
-                Console.WriteLine("É VERDADE!! ");
+                Console.WriteLine("Você é uma criança !");
             }
-            else if (a < b)
+
+            else if (idade >= 12 && idade <= 18)
             {
-                Console.WriteLine(" pegou els if");
+                Console.WriteLine("Você é um adolecente !");
+            }
+
+            else if (idade >= 19 && idade <= 55)
+            {
+                Console.WriteLine("Você é um adulto !");
+            }
+            
+            else if (idade >= 56 && idade <= 100)
+            {
+                Console.WriteLine("Você é um idoso(a) !");
             }
             else
             {
-                Console.WriteLine("É MENTIRA");
+                Console.WriteLine("Coloque sua idade ");
             }
-
+            
             Console.ReadLine();
 
 
