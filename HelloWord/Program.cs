@@ -10,18 +10,18 @@ namespace HelloWord
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            string nome = "";
+            Console.WriteLine("Escreve seu nome: ");
+            nome = Console.ReadLine();
+            Console.WriteLine("Seu nome é :");
+            Console.WriteLine(nome);
 
-            int segundaGuerraMundial = 1942;
-            float velocidadeDoTanque = 150.45f;
-            string corDoTanque = "verde";
-            bool teveSegundaGuerra = true;
 
 
-            Console.WriteLine(segundaGuerraMundial);
-            Console.WriteLine(velocidadeDoTanque);
-            Console.WriteLine(corDoTanque);
-            Console.WriteLine(teveSegundaGuerra);
+
+
+
 
             Console.ReadLine();
 
