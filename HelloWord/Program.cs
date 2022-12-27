@@ -11,19 +11,22 @@ namespace HelloWord
     {
         static void Main(string[] args)
         {   
-          int numeroQlqer = 20 + 20 - 10 ;
-          int numMult = 60 * 2 ;
-          float numDiv = 7f / 2 ; 
-
-          int teste = (2+2) * 10 ;
-
-          
-            Console.WriteLine(numeroQlqer);
-            Console.WriteLine(numMult);
-            Console.WriteLine(numDiv);
-            Console.WriteLine(teste);
-
+           int a = 10 ;
+           int b = 20 ;
+           int c = 2 ;
             
+            if (a < b) 
+            {
+                Console.WriteLine("É VERDADE!! ");
+            }
+            else if (a < b)
+            {
+                Console.WriteLine(" pegou els if");
+            }
+            else
+            {
+                Console.WriteLine("É MENTIRA");
+            }
 
             Console.ReadLine();
 
