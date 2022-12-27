@@ -11,17 +11,19 @@ namespace HelloWord
     {
         static void Main(string[] args)
         {   
-            string nome = "";
-            Console.WriteLine("Escreve seu nome: ");
-            nome = Console.ReadLine();
-            Console.WriteLine("Seu nome é :");
-            Console.WriteLine(nome);
+          int numeroQlqer = 20 + 20 - 10 ;
+          int numMult = 60 * 2 ;
+          float numDiv = 7f / 2 ; 
 
+          int teste = (2+2) * 10 ;
 
+          
+            Console.WriteLine(numeroQlqer);
+            Console.WriteLine(numMult);
+            Console.WriteLine(numDiv);
+            Console.WriteLine(teste);
 
-
-
-
+            
 
             Console.ReadLine();
 
